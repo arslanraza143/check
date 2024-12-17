@@ -1,0 +1,49 @@
+ipynb:
+python jupitor notebook
+ipy:
+only run python file
+
+markdown is used for frontend language 
+	when i tries to write code we write some info about project email and further
+
+shift+enter to run in the markdown for frontend
+we can also write html code in the markdown
+html is used in python for desioning purpose
+	
+panadas is to look into dataframe
+
+features is the column in the dataset in the excel
+indexes is the rows in the dataset in the excel
+
+
+----------------------------dataloading in the python
+1- #install Libraries
+%pip install pandas
+
+2- #to import the padas libaries // pd is used to call the pandas
+import pandas as pd 
+
+3- #to read data we use pd
+pd.read_csv("data.csv")
+
+4- df = pd.read_csv("data.csv")
+
+5- print(df)
+
+6- %pip install panadas openpyxl
+
+7- df2 = pd.read_excel("data.xlsx")
+
+8- 
+
+
+-------- to check the account and assign another useraccount------------------
+git config --global user.name
+
+git config --global user.name"arslanraza143"
+
+git config --global user.email"arslanraza2022@gmail.com"
+
+
+git init
+
