@@ -44,6 +44,38 @@ git config --global user.name"arslanraza143"
 
 git config --global user.email"arslanraza2022@gmail.com"
 
-
+// to initialize 
 git init
 
+// to add all files 
+git add . 
+
+//to comit all the files to the git hub then it will ask where to commit then give the origin/ repository
+git commit -m "this is my first git project on Artificial Intelligence project"
+
+// now give the remote or reposortry 
+git remote add origin https://github.com/arslanraza143/arslanraza.ML.git
+
+// now check the branch
+git branch
+
+//now push the git
+git push -u origin master
+
+// if git not push then pull the git
+git pull origin master
+
+// to create branch 
+git branch ml
+
+// to switch to branch 
+git switch ml
+
+// to check branch 
+git branch
+
+// to push to another 
+git push origin ml
+
+// to clone the project of GitHub in my directory 
+git clone  https://github.com/jasonwei20/eda_nlp.git
